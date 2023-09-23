@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-resourceGroup="acdnd-c4-project"
+resourceGroup="Azure-Management-Project-4"
 location="westus"
 osType="UbuntuLTS"
 vmssName="udacity-vmss"
@@ -14,7 +14,7 @@ nsgName="$vmssName-nsg"
 vnetName="$vmssName-vnet"
 subnetName="$vnetName-subnet"
 probeName="tcpProbe"
-vmSize="Standard_B1s"
+vmSize="Standard_B1ls"
 storageType="Standard_LRS"
 
 # Create resource group. 
