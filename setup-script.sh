@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-resourceGroup="acdnd-c4-project"
+resourceGroup="Azure-Management-Project-4"
 location="westus"
 osType="UbuntuLTS"
 vmssName="udacity-vmss"
